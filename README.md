@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://i.imgur.com/s6f2B3j.png" alt="LogiTrack Banner" width="800"/>
   <br>
   <h1><strong>Sistema de Base de Datos Distribuida "LogiTrack"</strong></h1>
   <p>Un prototipo de SBDD heterogéneo para la gestión logística, desarrollado con MySQL, SQL Server y Docker.</p>
