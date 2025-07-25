@@ -58,8 +58,8 @@ Para poder levantar y operar este proyecto, necesitarás el siguiente software i
 | ![Git](https://img.icons8.com/color/32/000000/git.png) **Git** | Control de versiones para clonar el repositorio. | `sudo apt install git` |
 | ![Docker](https://img.icons8.com/color/32/000000/docker.png) **Docker & Docker Compose** | Para correr el contenedor de SQL Server. | [Guía de Instalación Oficial](https://docs.docker.com/engine/install/ubuntu/) |
 | ![MySQL](https://img.icons8.com/color/32/000000/mysql-logo.png) **MySQL Server** | Para los nodos distribuidos. | `sudo apt install mysql-server` |
-| ![MySQL Workbench] **MySQL Workbench** | Cliente gráfico para gestionar MySQL. | [Descarga Oficial](https://dev.mysql.com/downloads/workbench/) |
-| ![Azure Data Studio] **Azure Data Studio** | Cliente gráfico para gestionar SQL Server. | [Descarga Oficial](https://learn.microsoft.com/es-es/sql/azure-data-studio/download-azure-data-studio) |
+| **MySQL Workbench** | Cliente gráfico para gestionar MySQL. | [Descarga Oficial](https://dev.mysql.com/downloads/workbench/) |
+| **Azure Data Studio** | Cliente gráfico para gestionar SQL Server. | [Descarga Oficial](https://learn.microsoft.com/es-es/sql/azure-data-studio/download-azure-data-studio) |
 
 ---
 
