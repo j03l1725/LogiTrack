@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="https://i.imgur.com/s6f2B3j.png" alt="LogiTrack Banner" width="800"/>
   <br>
   <h1><strong>Sistema de Base de Datos Distribuida "LogiTrack"</strong></h1>
   <p>Un prototipo de SBDD heterogéneo para la gestión logística, desarrollado con MySQL, SQL Server y Docker.</p>
@@ -13,13 +14,13 @@
 
 ---
 
-## 📜 **Descripción del Proyecto**
+## **Descripción del Proyecto**
 
 **LogiTrack** simula un entorno empresarial de logística con tres centros de operación en Ecuador (Quito, Guayaquil, Cuenca). El sistema gestiona la flota de vehículos, conductores, rutas y entregas, utilizando una arquitectura distribuida y heterogénea para mejorar el rendimiento, la confiabilidad y la escalabilidad.
 
 Este proyecto fue desarrollado como parte de la asignatura de **Bases de Datos Distribuidas**, aplicando conceptos teóricos en un caso práctico y funcional.
 
-### ✨ **Características Principales**
+### **Características Principales**
 
 - **Arquitectura Heterogénea:** Combina Microsoft SQL Server (nodo central) y MySQL Server (nodos distribuidos) para simular la integración de sistemas diversos.
 - **Fragmentación Horizontal:** La tabla `Entrega` está fragmentada por `ciudad_destino` para optimizar la localización de los datos y acelerar las consultas locales.
@@ -28,7 +29,7 @@ Este proyecto fue desarrollado como parte de la asignatura de **Bases de Datos D
 
 ---
 
-## 🏛️ **Arquitectura del Sistema**
+## **Arquitectura del Sistema**
 
 El sistema se compone de tres nodos que trabajan de forma coordinada.
 
@@ -48,7 +49,7 @@ El sistema se compone de tres nodos que trabajan de forma coordinada.
 
 ---
 
-## 🛠️ **Stack Tecnológico y Requisitos**
+## 🛠**Stack Tecnológico y Requisitos**
 
 Para poder levantar y operar este proyecto, necesitarás el siguiente software instalado en tu sistema. Se recomienda un entorno basado en Ubuntu Linux para una compatibilidad total con la guía.
 
@@ -63,7 +64,7 @@ Para poder levantar y operar este proyecto, necesitarás el siguiente software i
 
 ---
 
-## 🚀 **Guía de Instalación y Puesta en Marcha**
+## **Guía de Instalación y Puesta en Marcha**
 
 Sigue estos pasos para tener el entorno completo funcionando.
 
@@ -105,7 +106,7 @@ cd logitrack-distributed-db
 
 ---
 
-## 📁 **Estructura del Repositorio**
+## **Estructura del Repositorio**
 
 ```
 /
