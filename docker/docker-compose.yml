@@ -1,0 +1,38 @@
+# =================================================================
+# ARCHIVO DE CONFIGURACIÓN DE DOCKER COMPOSE PARA SQL SERVER
+# =================================================================
+# Versión del formato del archivo
+version: '3.8'
+
+# Definición de los servicios (contenedores)
+services:
+  # Nombre del servicio
+  sql_server_quito:
+    # Imagen de Docker que se usará para crear el contenedor
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    
+    # Nombre que le daremos al contenedor una vez creado
+    container_name: sql_server_quito
+    
+    # Mapeo de puertos: Conecta el puerto 1433 del contenedor
+    # al puerto 1433 de tu máquina local
+    ports:
+      - "1433:1433"
+      
+    # Variables de entorno para configurar el servidor
+    environment:
+      # Aceptar los términos de la licencia de SQL Server
+      ACCEPT_EULA: "Y"
+      # Establecer la contraseña para el superusuario 'sa'
+      # IMPORTANTE: Cambia esta contraseña por una segura
+      MSSQL_SA_PASSWORD: "TuPasswordSeguro_123!"
+      
+    # Volúmenes para persistencia de datos:
+    # Esto asegura que los datos de la base de datos no se borren
+    # si el contenedor se elimina.
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
+# Definición de los volúmenes nombrados
+volumes:
+  sqlserver_data:
